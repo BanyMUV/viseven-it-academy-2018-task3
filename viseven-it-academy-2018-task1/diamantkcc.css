@@ -1,0 +1,287 @@
+.nav [type="checkbox"]{
+    display: none;
+}
+.nav label.toggleMenu{
+    padding: 10px 20px;
+    position: relative;
+    display: none;
+}
+.nav label.toggleMenu .fa{
+    position: absolute;
+}
+@media all and (max-width: 1024px){
+    html, body{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        flex-flow: column wrap;
+    }
+    .btn-show-more{
+        display: none;
+    }
+    #header{
+        background:#212b32;
+        display: flex;
+        justify-content: left;
+        align-items: flex-start;
+    }
+    #logo{
+        position: relative;
+        width: 80px;
+        margin-left: 12px;
+        display: block;
+    }
+    .nav{
+        position: fixed;
+        width: 100%;
+    }
+    .nav ul{
+        display: none;
+    }
+    .nav label.toggleMenu{
+        position: absolute;
+        right: 20px;
+        display: block;
+        color: #007fff;
+    }
+    input.toggleMenu:checked + label.toggleMenu{
+        background: #212b32;
+    }
+    input.toggleMenu:checked ~ ul{
+        display: block;
+    }
+    .nav ul li a {
+        border-right: none;
+    }
+
+    .nav ul li{
+        background: #212b32;
+        position: relative;
+        top: 35px;
+        font-size: 12px;
+        border-bottom: 1px solid #007fff;
+        width: 100%;
+        padding: 10px 10px 10px 0;
+    }
+    .nav ul li:last-child, li:first-child {
+        border-bottom: none;
+    }
+    .name{
+        position: absolute;
+        display: block;
+        background: #1085f1;
+        min-width: 300px;
+        height: 80px;
+        margin: 0 auto;
+    }
+    .name h1, p{
+        color: white;
+        margin: 5px 10px;
+    }
+    .name h1{
+        font-family: Roboto-Bold, sans-serif;
+        font-size: 24px;
+        height: auto;
+    }
+    .name p{
+        font-family: Roboto-Light, sans-serif;
+        font-size: 16px;
+        height: auto;
+    }
+    .pulse{
+        width: 60%;
+    }
+    h2{
+        font-size: 36px;
+    }
+    .p-mobile{
+        display: flex;
+    }
+    .main-description{
+        background: #3e9eff;
+        margin: 20px auto;
+        width: 90%;
+        min-width: 300px;
+    }
+    .main-description span{
+        display: flex;
+        color: #fff;
+        text-align: center;
+        margin: 15px;
+    }
+    .m-top{
+        font-family: Roboto-Bold, sans-serif;
+        font-size: 14px;
+    }
+    .m-bot{
+        font-family: Roboto-Light, sans-serif;
+        font-size: 14px;
+    }
+    .devise,
+    .local{
+        flex-flow: column wrap;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    hr{
+        display: flex;
+        width: 80%;
+    }
+    .devise img,
+    .local img{
+        display: flex;
+        width: 215px;
+    }
+    .pazzle{
+        flex-flow: column-reverse wrap;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .pazzle img{
+        display: flex;
+        width: 215px;
+    }
+    .mobile-block-diamant{
+        display: inline-flex;
+        flex-flow: column nowrap;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        background: #f6f8fb;
+        position: relative;
+    }
+    .diamant{
+        display: inline-flex;
+        width: 75px;
+        height: 75px;
+        background: #e2e4e7;
+        /* Rotate */
+        -webkit-transform: rotate(45deg);
+        -moz-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+        -o-transform: rotate(45deg);
+        transform: rotate(45deg);
+        /* Rotate Origin */
+        -webkit-transform-origin: 50% 50%;
+        -moz-transform-origin: 50% 50%;
+        -ms-transform-origin: 50% 50%;
+        -o-transform-origin: 50% 50%;
+        transform-origin: 50% 50%;
+        margin: 40px 20px;
+        position: relative;
+        justify-content: start;
+        align-items: flex-end;
+
+    }
+    .diamant img{
+        position: absolute;
+        -webkit-transform: rotate(-45deg);
+        -moz-transform: rotate(-45deg);
+        -ms-transform: rotate(-45deg);
+        -o-transform: rotate(-45deg);
+        transform: rotate(-45deg);
+        width: 40px;
+        margin: -25px 10px 10px 10px;
+    }
+    .diamant p{
+        position: absolute;
+        width: 100%;
+        color: #444444;
+        font-family: Roboto-Medium, sans-serif;
+        background: #f6f8fb;
+        font-size: 22px;
+        text-align: center;
+        text-transform: uppercase;
+        margin: -2px 10px 10px 20px;
+    }
+    .seven{
+        background: url("content/fon-2.png");
+    }
+    #bold{
+        font-size: 24px;
+    }
+    .about p{
+        font-size: 18px;
+        margin: 20px;
+    }
+
+    .bot-block{
+        display: flex;
+        flex-flow: column wrap;
+    }
+
+    .form3{
+        display: flex;
+        flex-flow: column wrap;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .form3 > input{
+        font-family: Roboto-Black, sans-serif;
+        font-size: 18px;
+    }
+    .btn-bot-send{
+        width: 215px;
+        font-size: 24px;
+    }
+    .land p{
+        display: flex;
+        position: absolute;
+        left:35%;
+        top: 20%;
+        font-family: Roboto-Bold, sans-serif;
+        font-size: 30px;
+        color: #000
+    }
+
+    .land span{
+        display: none;
+    }
+    .checkbox{
+        font-size: 30px;
+        text-align: center;
+    }
+    .two p{
+        display: none;
+    }
+    .tree{
+         display: none;
+     }
+    .for{
+        display: none;
+    }
+    .five{
+        display: none;
+    }
+    .six{
+        display: none;
+    }
+    footer{
+        height: 50px;
+    }
+    footer p{
+        font-size: 14px;
+        text-align: center;
+    }
+}
+@media all and (max-width: 400px){
+    .name{
+        position: absolute;
+        display: block;
+        background: #1085f1;
+        min-width: 300px;
+        height: 80px;
+        left: 10px;
+        margin: 0 auto;
+    }
+
+}
