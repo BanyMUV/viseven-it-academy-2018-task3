@@ -81,8 +81,8 @@ html, body{
     display: block;
     width: 400px;
     margin: 0 auto;
-    -webkit-animation: polar 12s infinite linear;
-    animation: polar 12s infinite linear;
+    -webkit-animation: polar 10s infinite linear;
+    animation: polar 10s infinite linear;
     position: absolute;
 }
 #polar3{
@@ -91,8 +91,8 @@ html, body{
     display: block;
     width: 400px;
     margin: 0 auto;
-    -webkit-animation: polar 9s infinite linear;
-    animation: polar 9s infinite linear;
+    -webkit-animation: polar 14s infinite linear;
+    animation: polar 14s infinite linear;
     position: absolute;
 }
 #polar4{
@@ -101,16 +101,16 @@ html, body{
     display: block;
     width: 400px;
     margin: 0 auto;
-    -webkit-animation: polar 7s infinite linear;
-    animation: polar 7s infinite linear;
+    -webkit-animation: polar 20s infinite linear;
+    animation: polar 20s infinite linear;
     position: absolute;
 }
 #polar5{
     display: block;
     width: 400px;
     margin: 0 auto;
-    -webkit-animation: polar 5s infinite linear;
-    animation: polar 5s infinite linear;
+    -webkit-animation: polar 17s infinite linear;
+    animation: polar 17s infinite linear;
     position: absolute;
 }
 #star1{
