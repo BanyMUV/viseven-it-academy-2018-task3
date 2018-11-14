@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.top_line{
+    position: absolute;
+    height: 5px;
+    top: 0;
+}
+.bot_line{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.wrapper{
+    position: relative;
+    display: block;
+    width: 1366px;
+    height: 768px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.back{
+    position: absolute;
+    top: 59px;
+    left: 39px;
+}
+h1{
+    position: relative;
+    font-size: 53px;
+    font-family: "Segoe UI", sans-serif;
+    font-weight: lighter;
+    margin: 40px 0 24px 28px;
+    left: 90px;
+    box-sizing: border-box;
+    display: block;
+    letter-spacing: 1px;
+}
+.delete{
+    border: 2px solid #fff;
+    margin: 5px 10px;
+    width: 30px;
+    height: 30px;
+    background: inherit;
+}
+.plus,
+.minus{
+    width: 20px;
+    height: 20px;
+    background: inherit;
+    border: none;
+}
+.good p {
+    position: relative;
+    display: inline-block;
+    top: -5px;
+    margin: 0 10px 0 10px;
+    color: #fff;
+    font-family:"Segoe UI", sans-serif;
+    font-size: 18px;
+}
+.delete img{
+    width: 100%;
+    padding: 5px;
+    box-sizing: border-box;
+}
+.plus img,
+.minus img{
+    width: 100%;
+}
+.good{
+    position: relative;
+    height: auto;
+    width: 500px;
+    left: 115px;
+}
+.good:nth-child(odd){
+    background: #d9644a;
+}
+.good:nth-child(even){
+    background: #bf613f;
+}
+.empty{
+    position: relative;
+    left: 115px;
+    font-family:"Segoe UI", sans-serif;
+    font-size: 18px;
+}
+.shop-list{
+
+}

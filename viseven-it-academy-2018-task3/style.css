@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.top_line{
+    position: absolute;
+    height: 5px;
+    top: 0;
+}
+.bot_line{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.wrapper{
+    position: relative;
+    display: block;
+    width: 1366px;
+    height: 768px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+h1{
+    position: relative;
+    font-size: 53px;
+    font-family:"Segoe UI", sans-serif;
+    font-weight: lighter;
+    margin: 33px 30px 32px 30px;
+    left: 90px;
+    box-sizing: border-box;
+    display: block;
+}
+.basket img{
+    padding: 15px 20px;
+}
+.basket{
+    position: absolute;
+    background: #d9644a;
+    width: 280px;
+    height: 60px;
+    left: 1040px;
+    top: 40px;
+
+}
+.basket:hover{
+    background: #e8502e;
+    cursor: pointer;
+}
+.allcoct{
+    position: relative;
+    float: right
+}
+.content{
+    position: relative;
+    left: 115px;
+}
+.t_shorts{
+    width: 360px;
+    height: 370px;
+    margin: 5px;
+    display: inline-block;
+    float: left;
+}
+.square{
+    height: 180px;
+    width: 230px;
+    margin: 5px;
+    display: inline-block;
+    float: left;
+}
+.horizontal{
+    position: relative;
+    height: 180px;
+    width: 360px;
+    margin: 5px;
+    display: inline-block;
+    float: left;
+    top: -190px;
+}
+.magnet{
+    position: relative;
+    top: -190px;
+}
+.horizontal_notebook{
+    height: 180px;
+    width: 396px;
+    margin: 5px;
+    display: inline-block;
+    float: left;
+}
+.vertical{
+    position: relative;
+    height: 370px;
+    width: 230px;
+    margin: 5px;
+    display: inline-block;
+    float: left;
+}
+.content p{
+    position: relative;
+    background: #f6f4f2;
+    color: #000;
+    top: -43px;
+    height: 40px;
+    opacity: 0.8;
+    padding: 5px 20px;
+    font-size: 22px;
+    font-family:"Segoe UI", sans-serif;
+    box-sizing: border-box;
+    font-weight: normal;
+    width: 100%;
+}
+.text-card{
+    margin: 15px;
+    font-family: "Segoe UI", sans-serif;
+    font-size: 20px;
+    color: #fff;
+}

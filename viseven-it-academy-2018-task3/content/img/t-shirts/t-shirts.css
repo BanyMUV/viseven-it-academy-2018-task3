@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.top_line{
+    position: absolute;
+    height: 5px;
+    top: 0;
+}
+.bot_line{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.wrapper{
+    position: relative;
+    display: block;
+    width: 1366px;
+    height: 768px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.back{
+    position: absolute;
+    top: 59px;
+    left: 39px;
+}
+h1{
+    position: relative;
+    font-size: 53px;
+    font-family: "Segoe UI", sans-serif;
+    font-weight: lighter;
+    margin: 40px 0 24px 28px;
+    left: 90px;
+    box-sizing: border-box;
+    display: block;
+    letter-spacing: 1px;
+}
+.basket img{
+    padding: 15px 20px;
+}
+.basket{
+    position: absolute;
+    background: #d9644a;
+    width: 280px;
+    height: 60px;
+    left: 1040px;
+    top: 40px;
+}
+.basket:hover{
+    background: #e8502e;
+    cursor: pointer;
+}
+.allcoct{
+    position: relative;
+    float: right;
+}
+.shirts{
+    width: 1500px;
+    position: relative;
+    left: 115px;
+    overflow: hidden;
+}
+.shirts-goods{
+    float: left;
+    display: inline-block;
+    margin: 5px;
+    width: 360px;
+    height: 500px;
+}
+
+.cost-shirts{
+    position: relative;
+    background: #f6f4f2;
+    top: -45px;
+    height: 45px;
+    opacity: 0.8;
+    padding: 0 19px 0 0;
+    font-size: 32px;
+    font-family:"Segoe UI", sans-serif;
+    box-sizing: border-box;
+    font-weight: normal;
+    width: 100%;
+    text-align: right;
+    color: #d9644a;
+}
+.name-shirts  {
+    position: absolute;
+    top: 320px;
+    font-size: 22.3px;
+    font-family: "Segoe UI", sans-serif;
+    padding: 20px 19px;
+    z-index: 1;
+    color: #3d3b39;
+}
+.add{
+    box-sizing: border-box;
+    position: relative;
+    top: -40px;
+    width: 360px;
+    height: 80px;
+    background: #4EA686;
+}
+.minus{
+    background: url("../buttons/minus.png") no-repeat;
+    width: 40px;
+    height: 40px;
+    border: none;
+    margin: 22px;
+    float: left;
+}
+.plus{
+    background: url("../buttons/plus.png") no-repeat;
+    width: 40px;
+    height: 40px;
+    border: none;
+    margin: 22px;
+    float: right;
+}
+.count{
+    position: absolute;
+    margin: 27px 173px;
+    font-family: "Segoe UI", sans-serif;
+    font-size: 32px;
+    color: #fff;
+}
+.amount{
+    position: absolute;
+    margin: 10px 159px;
+    font-family: "Segoe UI", sans-serif;
+    font-size: 14px;
+    color: #fff;
+}
+.text-card{
+    margin: 15px;
+    font-family: "Segoe UI", sans-serif;
+    font-size: 20px;
+    color: #fff;
+}
